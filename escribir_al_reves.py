@@ -9,7 +9,7 @@ def unir_letras(palabra): #Función encargada de la conversion de una lista a un
 
 print("\n\n\t-------------------HERRAMIENTA PARA ESCRIBIR AL REVÉS-------------------\n")
 palabra = input("Ingrese una palabra o texto: ") #Pide al usuario ingresar información
-letras_separadas = separar_letras(palabra) #Se llama a la función 'separar_letras y se le da de parametro, el dato ingresado por el usuario'
+letras_separadas = separar_letras(palabra) #Se llama a la función 'separar_letras' y se le da de parametro el dato ingresado por el usuario
 print("\nTexto original:", palabra) #Muestra el texto ingresado por el usuario
 letras_separadas.reverse() #El método 'reverse()' invierte la lista.  ['h','o','l','a'] <----->  ['a','l','o','h']
 unir_letras(letras_separadas) #Se llama la función 'unir_letras' y se le da de parametro la lista invertida. ['a','l','o','h'] <-----> aloh
